@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b211c">
+  <meta name="description" content="Small-group expeditions to the world's wildest places. Find your next journey with Atlas.">
+  <title>Atlas — Expedition Log</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Atlas home"><span class="wordmark-mark" aria-hidden="true">A</span><span>ATLAS<span class="wordmark-period">.</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span class="sr-only">Open navigation</span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a href="#expeditions">Expeditions</a><a href="#requirements">The approach</a><a href="#inquire">Book</a>
+      <a class="nav-cta" href="#inquire">Inquire now <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=2400&q=88" alt="Jagged alpine peaks rising above a sea of clouds">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light"><span class="status-dot"></span> The expedition log · 2025—26</p>
+        <h1 id="hero-title">Go where<br>the <em>map</em> ends.</h1>
+        <p class="hero-copy">Small teams. Far horizons. Thoughtfully led journeys into the places that stay with you.</p>
+        <a href="#expeditions" class="button button-light">Explore expeditions <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-index"><span>01 / 04</span><span class="index-line"></span><span>Himalaya range</span></div>
+      <span class="hero-coordinates">27°59' N&nbsp; 86°55' E</span>
+    </section>
+
+    <section class="catalog section-pad" id="expeditions" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span class="section-number">01</span> The expedition log</p><h2 id="catalog-title">Find your <em>frontier.</em></h2></div>
+        <p class="section-intro">Not just a place to go. A reason to go further. Our field-tested journeys take you deep into the world's wildest landscapes.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter expeditions by difficulty">
+        <span class="filter-label">Filter by difficulty</span>
+        <div class="filter-buttons">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>04</span></button>
+          <button class="filter-button" type="button" data-filter="moderate" aria-pressed="false">Moderate</button>
+          <button class="filter-button" type="button" data-filter="hard" aria-pressed="false">Hard</button>
+          <button class="filter-button" type="button" data-filter="extreme" aria-pressed="false">Extreme</button>
+        </div>
+        <span class="catalog-count" aria-live="polite">04 journeys</span>
+      </div>
+      <div class="expedition-grid">
+        <article class="expedition-card" data-difficulty="hard">
+          <a class="card-image" href="#inquire" aria-label="Ask about the Khumbu Three Passes expedition"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1000&q=82" alt="Mountain lake beneath high Himalayan peaks" loading="lazy"><span class="difficulty difficulty-hard">Hard</span><span class="image-arrow" aria-hidden="true">↗</span></a>
+          <div class="card-body"><div class="card-meta"><span>OCT 04 — 20, 2025</span><span>NEPAL</span></div><h3>Khumbu Three Passes</h3><p>A high-altitude circuit over three legendary passes, threading through Sherpa villages beneath the world's tallest peaks.</p><div class="card-stats"><span><b>17</b> days</span><span><b>5,545</b> m max</span><span><b>12</b> places</span></div><a class="text-link" href="#inquire">View expedition <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="expedition-card" data-difficulty="extreme">
+          <a class="card-image" href="#inquire" aria-label="Ask about the Aconcagua summit expedition"><img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=1000&q=82" alt="Snow-covered mountain peak against a clear sky" loading="lazy"><span class="difficulty difficulty-extreme">Extreme</span><span class="image-arrow" aria-hidden="true">↗</span></a>
+          <div class="card-body"><div class="card-meta"><span>JAN 10 — 27, 2026</span><span>ARGENTINA</span></div><h3>Aconcagua: The High Andes</h3><p>Climb the highest mountain outside Asia. A patient, acclimatization-led ascent through the stark beauty of the Andes.</p><div class="card-stats"><span><b>18</b> days</span><span><b>6,961</b> m max</span><span><b>8</b> places</span></div><a class="text-link" href="#inquire">View expedition <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="expedition-card" data-difficulty="moderate">
+          <a class="card-image" href="#inquire" aria-label="Ask about the Lofoten traverse expedition"><img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=1000&q=82" alt="Aurora borealis illuminating a remote mountain landscape" loading="lazy"><span class="difficulty difficulty-moderate">Moderate</span><span class="image-arrow" aria-hidden="true">↗</span></a>
+          <div class="card-body"><div class="card-meta"><span>MAR 08 — 16, 2026</span><span>NORWAY</span></div><h3>Lofoten: Arctic Light</h3><p>Follow old fishing paths between sea and summit. Long days on the trail, quiet nights under the northern lights.</p><div class="card-stats"><span><b>9</b> days</span><span><b>1,029</b> m max</span><span><b>10</b> places</span></div><a class="text-link" href="#inquire">View expedition <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="expedition-card" data-difficulty="hard">
+          <a class="card-image" href="#inquire" aria-label="Ask about the Patagonia ice fields expedition"><img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1000&q=82" alt="Wild mountain landscape and forest in Patagonia" loading="lazy"><span class="difficulty difficulty-hard">Hard</span><span class="image-arrow" aria-hidden="true">↗</span></a>
+          <div class="card-body"><div class="card-meta"><span>FEB 02 — 15, 2026</span><span>CHILE</span></div><h3>Patagonia Ice Fields</h3><p>Enter the Southern Patagonian Ice Field on foot, tracing glacial valleys under the ever-changing Patagonian sky.</p><div class="card-stats"><span><b>14</b> days</span><span><b>2,400</b> m max</span><span><b>8</b> places</span></div><a class="text-link" href="#inquire">View expedition <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <p class="no-results" hidden>No expeditions match this difficulty yet.</p>
+      <div class="catalog-foot"><span>Four journeys. One good reason to begin.</span><span>SCROLL TO EXPLORE&nbsp; ↓</span></div>
+    </section>
+
+    <section class="manifesto" aria-label="Our philosophy"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2200&q=85" alt="A lone climber looking toward a vast snowy mountain" loading="lazy"><div class="manifesto-shade"></div><div class="manifesto-content"><p class="eyebrow light"><span class="section-number">02</span> A note from the field</p><p class="manifesto-quote">“The point isn't to conquer a mountain. It's to let the mountain <em>change you.</em>”</p><span class="manifesto-credit">ATLAS FIELD NOTES · EST. 2012</span></div></section>
+
+    <section class="inquiry section-pad" id="inquire" aria-labelledby="inquiry-title">
+      <div class="section-heading inquiry-heading"><div><p class="eyebrow"><span class="section-number">03</span> The first step</p><h2 id="inquiry-title">Let's get you<br><em>out there.</em></h2></div><p class="section-intro">Good expeditions start with an honest conversation. Tell us where you're at, and we'll take it from there.</p></div>
+      <div class="inquiry-layout">
+        <aside class="requirements" id="requirements"><h3>Before you go.</h3><p>Remote places ask more of us. Every Atlas journey begins with a few things in common.</p>
+          <div class="requirement"><span class="requirement-icon" aria-hidden="true">01</span><div><h4>Know your limits</h4><p>Our trips range from demanding treks to serious alpine climbs. We match every traveler to the right terrain.</p></div></div>
+          <div class="requirement"><span class="requirement-icon" aria-hidden="true">02</span><div><h4>Come prepared</h4><p>Some journeys require a medical clearance from your doctor and proof of comprehensive travel insurance.</p></div></div>
+          <div class="requirement"><span class="requirement-icon" aria-hidden="true">03</span><div><h4>Bring experience</h4><p>For technical expeditions, we'll talk through your experience and training before confirming a place.</p></div></div>
+          <div class="safety-note"><span aria-hidden="true">✳</span><p>Safety is never a footnote. Every route is led by qualified guides with current conditions assessed daily.</p></div>
+        </aside>
+        <form class="inquiry-form" id="inquiry-form" novalidate>
+          <p class="eyebrow light">Tell us a little about you</p><h3>Start a conversation.</h3>
+          <div class="form-grid"><label class="field">Your name<input name="name" autocomplete="name" required placeholder="Alex Morgan"></label><label class="field">Email address<input type="email" name="email" autocomplete="email" required placeholder="alex@example.com"></label>
+          <label class="field field-full">Which expedition has your eye?<select name="expedition" required><option value="" disabled selected>Choose a journey</option><option>Khumbu Three Passes</option><option>Aconcagua: The High Andes</option><option>Lofoten: Arctic Light</option><option>Patagonia Ice Fields</option><option>I'm still exploring</option></select></label>
+          <label class="field field-full">A little about your experience<textarea name="experience" rows="3" placeholder="Where have you been? What are you dreaming about?"></textarea></label></div>
+          <label class="consent"><input type="checkbox" name="consent" required><span>I'm happy for the Atlas team to contact me about this inquiry.</span></label>
+          <button class="button button-orange" type="submit">Send inquiry <span aria-hidden="true">↗</span></button>
+          <p class="form-demo">Demo form · Your details stay in this browser and are not sent to a server.</p>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-top"><div class="footer-brand"><a class="wordmark" href="#top" aria-label="Atlas home"><span class="wordmark-mark" aria-hidden="true">A</span><span>ATLAS<span class="wordmark-period">.</span></span></a><p>Small teams. Far horizons.<br>Go a little further.</p></div><div class="footer-nav"><h2>Find your way</h2><a href="#expeditions">Expeditions</a><a href="#requirements">Our approach</a><a href="#inquire">Inquire</a></div><div class="footer-contact"><h2>Get in touch</h2><a href="mailto:hello@atlasexpeditions.co">hello@atlasexpeditions.co</a><span>Based wherever the trail begins.</span><a class="github-link" href="https://github.com/windchime0805/atlas-expedition-website" target="_blank" rel="noopener noreferrer" aria-label="View the Atlas project on GitHub">Project on GitHub <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.5-1.29-1.23-1.63-1.23-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.72 1.15 1.72 1.15.99 1.71 2.6 1.22 3.23.93.1-.72.39-1.22.7-1.5-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.78 1.15 3 0 4.29-2.62 5.23-5.12 5.51.4.35.76 1.03.76 2.08v3.08c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg></a></div></div>
+    <div class="footer-bottom"><span>© 2025 ATLAS EXPEDITIONS</span><span>LEAVE IT BETTER THAN YOU FOUND IT.</span><a href="#top">BACK TO THE TOP ↑</a></div>
+  </footer>
+</body>
+</html>
